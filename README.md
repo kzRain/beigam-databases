@@ -1,6 +1,8 @@
 # beigam-databases
 Databases
 
+PostgreSql
+
 Создаем Dockerfile
 ```agsl
 FROM postgres
@@ -31,3 +33,14 @@ docker run -d --name my-postgresdb-container -p 5432:5432 my-postgres-db
 docker image rm 'nameOfTheImage'
 ```
 
+Mongo DB
+
+Запускам docker compose
+```agsl
+docker-compose up -d
+```
+
+Для удаления используем команду
+```agsl
+docker-compose down
+```
